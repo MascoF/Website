@@ -1,0 +1,235 @@
+<html>
+
+  <head>
+    <title>MascoF</title>
+
+          <!CSS>
+
+    <style type="text/css">
+
+
+
+
+
+    body {
+      font-family:arial;
+      margin: 0;
+    }
+
+    header{
+      background: black;
+      padding: 10px 3% 33 3%;
+      margin: none;
+      width:inherit;
+
+    }
+
+  img{
+    #display: inline-block;
+    width: 30;
+    height:30;
+    padding: none;
+    margin: 0 0 0 0;
+    }
+
+    #home, #sell, #login, #feedback, #help{
+      color:#3A9C8A;
+      background-color: black;
+      padding: 5px 3px;
+      list-style-type: none;
+      margin: 0 0;
+      text-decoration: none;
+      border-radius: 20px;
+
+
+
+
+    }
+
+    button:hover {
+      opacity: 0.8;
+      text-decoration:none;
+      color: black;
+      background: #3A9C8A;
+      border: 0.1px solid #999
+    }
+
+
+
+
+
+    header h1{
+      background:  black;
+      color: #3A9C8A;
+      display: inline;
+      margin: 0 0 10px 0;
+      font-size: 50;
+
+    }
+
+    .description{
+      color: black;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    .new{
+      background: none;
+      color: black;
+      border-style: solid;
+      border-color: silver;
+      margin-left: auto;
+      margin-right: auto;
+      margin: 0 0 10px 5%;
+      width: 5%;
+      padding: 10 11% 480 11%;
+      float: left;
+      border-radius: 20px;
+      display: inline-block;
+    }
+
+    .buying{
+      background: none;
+      color: black;
+      border-style: solid;
+      border-color: silver;
+      margin: 0 5% 10px 0;
+      width: 20%;
+      padding: 10 20% 500 20%;
+      float: right;
+      border-radius: 20px;
+      display: inline-block;
+    }
+
+    div.logo img{
+      width:10%;
+      height: auto;
+      display:inline;
+      margin:0;
+      padding:0px;
+      #opacity: 0.6;
+
+    }
+
+    .top{
+      margin-left: 2.5;
+      margin-right: 2.5;
+      width: 15%;
+      background-color: black;
+
+    }
+
+    input[type=text]{
+        width: 40%;
+        padding: 12px 20px;
+        margin: 0px 0 2% 60%;
+        display: inline-block;
+        border:10px solid #ccc;
+        box-sizing: border-box;
+        display: block;
+    }
+
+
+
+    .showOnHover .text_box{
+      display:none;
+
+    }
+
+    #feedback:hover .showOnHover .text_box{
+      display:inline;
+    }
+
+    #home{
+      position: absolute;
+      top: 70;
+      left: 2.5%;
+    }
+    #sell{
+      position:absolute;
+      top: 70;
+      left: 22.5%;
+    }
+    #login{
+      position: absolute;
+      top: 70;
+      left: 42.5%;
+    }
+    #feedback{
+      position: absolute;
+      top: 70;
+      left: 62.5%;
+    }
+    #help{
+      position: absolute;
+      top: 70;
+      left: 82.5%;
+    }
+
+    footer{
+      background-color: black;
+      color: #3A9C8A;
+      clear:both;
+      padding: 10px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width:100%;
+
+    }
+
+
+
+
+
+    </style>
+
+          <!HTML>
+
+  </head>
+
+  <body>
+
+    <header>
+      <nav>
+
+
+              <center>
+                <h1>MascoF</h1>
+                <!<h1 class="top"><!<img src="fake_logo.png" /></h1>
+
+                <button id="help" class="top" onclick="window.location.href='help.html'">
+                  help
+                </button>
+
+                <button id="feedback" class="drop_down top">feedback</button>
+
+
+
+                <button id="login" class="top" onclick="window.location.href='login.html'">
+                  login/signup
+                </button>
+                <button id="sell" class="top" onclick="window.location.href='sell.html'">
+                  sell
+                </button>
+                <button id="home" class="top">home</button>
+              </center>
+
+                </nav>
+                  </header>
+                  <div class="drop_down">
+                    <div class="showOnHover">
+                      <div class="text_box">
+                        <div class="container"><input type="text" placeholder="Give us some feedback!"></div>
+                      </div>
+                    </div>
+                  </div>
+
+
+  </body>
+
+  <footer>Copyright &copy; MascoF 2017</footer>
+
+
+</html>

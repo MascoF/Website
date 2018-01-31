@@ -1,0 +1,684 @@
+@media screen and (max-width: 300px){
+
+html{
+  width:100%;
+  }
+}
+
+
+body {
+  margin: 0;
+  /*background-image: url("developer.jpeg");*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+header{
+
+  background: #303132;
+
+  padding: 10px 10px;
+
+  margin: none;
+
+  width:auto;
+
+  position: none;
+
+}
+
+header h1{
+
+  background:  none;
+
+  color: #3A9C8A;
+
+  display: inline;
+
+  margin: 0;
+
+  font-size: 150%;
+
+  font-family: Raleway;
+
+}
+
+
+
+#home, #hire, #contact_f{
+
+  color: #3A9C8A;
+
+  background-color: none;
+
+  padding: 5px 0px;
+
+  list-style-type: none;
+
+  margin: 1% 0;
+
+  text-decoration: none;
+
+  border-radius: 20px;
+
+  width: 15%;
+
+  float: right;
+  transform: rotate(10deg);
+}
+
+.intro{
+
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0.1px;
+  border-radius: 0px;
+
+  margin-top: 10px;
+
+ 
+
+  width: 50%;
+  font-family: EB Garamond;
+
+}
+
+/*
+#home{
+
+  position: absolute;
+
+  top: 70;
+
+  left: 2.5%;
+
+}
+
+#sell{
+
+  position:absolute;
+
+  top: 70;
+
+  left: 22.5%;
+
+}
+
+#myaccount{
+
+  position: absolute;
+
+  top: 70;
+
+  left: 42.5%;
+
+}
+
+
+#FeedBack{
+
+  position: absolute;
+
+  top: 70;
+
+  left: 82.5%;
+
+}
+
+
+
+*/
+
+
+
+
+img{/*logo*/
+
+  width: 85px;
+
+  height:40px;
+
+  padding: none;
+
+  margin: none;
+
+}
+
+
+#webDevelop_btn{
+  margin-top: 5%;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#software_btn, #gaming_btn{
+  margin-top: 5%;
+  width: 150px;
+  height: 35px;
+  cursor: pointer;
+}
+
+#softwareDescription {
+    margin-top: 2.5%;
+    background-color: #D3D3D3;
+    padding: 10px;
+    font-family: Raleway;
+    display: inherit;
+    display: none;
+}
+
+#webDescription{
+  margin-top: 2.5%;
+  background-color: #D3D3D3;
+  padding: 10px;
+  font-family: Raleway;
+  display: inherit;
+  display: none;
+}
+
+#gamingDescription{
+  margin-top: 2.5%;
+  background-color: #D3D3D3;
+  padding: 10px;
+  font-family: Raleway;
+  display: inherit;
+  display: none;
+}
+
+
+#moneyBack{
+  
+  margin: 5% 0 0 5%;
+  width: 100px;
+  height: 100px;
+  float: left;
+  transition: margin 1s ease;
+  transition: width 1s ease;
+  transition: height 1s ease;
+
+}
+
+#moneyBack_txt{
+  margin: 10% 0 0 2%;
+  width: 100px;
+  height: 100px;
+  float: left;
+  font-weight: 500;
+  letter-spacing: 2px;
+  transition: opacity 1s ease;
+  opacity: 0;
+
+}
+
+#moneyBack:hover{
+  width: 150px;
+  height: 150px;
+}
+
+
+.moneyBack_div:hover #moneyBack_txt{
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+
+
+button:hover {
+
+  opacity: 0.8;
+
+  text-decoration:none;
+
+  color: none;
+
+  background: none;
+
+  border: none;
+
+}
+
+
+
+
+
+.start_buying{
+
+  font-family: Times New Roman;
+  letter-spacing: 12px;
+  font-weight: bolder;
+  font-size: 170%;
+}
+
+#dash{
+
+  border: solid 1px black;
+  width: 25px;
+
+
+}
+
+#whats_new{
+  letter-spacing: 5px;
+}
+
+
+div.logo img{1
+  width:10%;
+
+  height: auto;
+
+  display:inline;
+
+  margin:0;
+
+  padding:0px;
+
+  #opacity: 0.6;
+
+}
+
+.top{
+
+  cursor:pointer;
+  margin-left: 2.5;
+
+  margin-right: 2.5;
+
+  width: 15%;
+
+  background-color: none;
+  border: none;
+  opacity: 1;
+  text-decoration:none;
+
+}
+
+input[type=text]{
+
+    width: 40%;
+
+    padding: 12px 20px;
+
+    margin: 0px 0 2% 60%;
+
+    display: inline-block;
+
+    border:10px solid #ccc;
+
+    box-sizing: border-box;
+
+    display:none;
+
+}
+
+
+
+
+footer{
+
+  background-color: #303132;
+
+  color: #3A9C8A;
+
+  padding:1%;
+
+  position: fixed;
+
+  bottom: 0;
+
+  left: 0;
+
+  width: 100%;
+
+}
+
+
+
+#feedback_popup {
+
+width:100%;
+
+height:100%;
+
+opacity:.95;
+
+top:0;
+
+left:0;
+
+display:none;
+
+position:fixed;
+
+background-color:#313131;
+
+overflow:auto;
+
+display: none;
+
+}
+
+img#close {
+
+position:absolute;
+
+right:-14px;
+
+top:-14px;
+
+cursor:pointer;
+display: none;
+}
+
+
+
+#contact{
+
+  position: absolute;
+
+  top: 70;
+
+  left: 62.5%;
+
+  color:#3A9C8A;
+
+  background-color: none;
+
+  padding: 5px 3px;
+
+  list-style-type: none;
+
+  margin: 0 0;
+
+  text-decoration: none;
+
+  border-radius: 20px;
+  
+}
+
+div#popupContact {
+
+position:absolute;
+
+left:50%;
+
+top:17%;
+
+margin-left:-202px;
+
+font-family:'Raleway',sans-serif;
+display: none;
+
+}
+
+form {
+
+max-width:300px;
+
+min-width:250px;
+
+padding:10px 50px;
+
+border:2px solid gray;
+
+border-radius:10px;
+
+font-family:raleway;
+
+background-color:#fff;
+
+display: none;
+
+}
+
+p {
+
+margin-top:30px;
+
+}
+
+h2 {
+
+background-color:#FEFFED;
+
+padding:20px 35px;
+
+margin:-10px -50px;
+
+text-align:center;
+
+border-radius:10px 10px 0 0;
+
+}
+
+hr {
+
+margin:10px -50px;
+
+border:0;
+
+border-top:1px solid #ccc;
+
+}
+
+input[type=text] {
+
+width:82%;
+
+padding:10px;
+
+margin-top:30px;
+
+border:1px solid #ccc;
+
+padding-left:40px;
+
+font-size:16px;
+
+font-family:raleway;
+
+}
+
+#name {
+
+background-image:url(../images/name.jpg);
+
+background-repeat:no-repeat;
+
+background-position:5px 7px;
+
+}
+
+#email {
+
+background-image:url(../images/email.png);
+
+background-repeat:no-repeat;
+
+background-position:5px 7px;
+
+}
+
+textarea {
+
+background-image:url(msg.png);/*find msg.png!!!*/
+
+background-repeat:no-repeat;
+
+background-position:5px 7px;
+
+width:82%;
+
+height:95px;
+
+padding:10px;
+
+resize:none;
+
+margin-top:30px;
+
+border:1px solid #ccc;
+
+padding-left:40px;
+
+font-size:16px;
+
+font-family:raleway;
+
+margin-bottom:30px;
+
+}
+
+#submit {
+
+text-decoration:none;
+
+width:100%;
+
+text-align:center;
+
+display:block;
+
+background-color:#FFBC00;
+
+color:#fff;
+
+border:1px solid #FFCB00;
+
+padding:10px 0;
+
+font-size:20px;
+
+cursor:pointer;
+
+border-radius:5px
+
+}
+
+span {
+
+color:red;
+
+font-weight:700;
+
+}
+
+
+
+#avatar{
+
+  margin: none;
+
+  padding: none;
+
+  width: 50px;
+
+  height: 2%;
+
+  display: auto;
+
+  vertical-align: middle;
+
+  float: left;
+
+
+
+}
+
+.logos{
+  margin-top: 0px;
+  background-color: red;
+}
+
+.insta{
+
+  width:70;
+
+  height:70;
+
+  position: absolute;
+
+  left: 40%;
+
+}
+
+.twitter{
+
+  width:70;
+
+  height:70;
+
+  position: absolute;
+
+  left: 55%;
+
+
+}
+
+.faq{
+
+  position:absolute;
+
+  background: none;
+
+  top: 50%;
+
+  left: 50%;
+
+}
+
+.q1{
+
+  position:absolute;
+
+  top: 55%;
+
+  left: 35%;
+
+}
+
+.a1{
+
+  position:absolute;
+
+  top: 58%;
+
+  left: 35%;
+
+}
+
+.q2{
+
+  position:absolute;
+
+  top: 65%;
+
+  left: 35%;
+
+}
+
+.a2{
+
+  position:absolute;
+
+  top: 68%;
+
+  left: 35%;
+
+}
+
+.a2_1{
+
+  position: absolute;
+
+  top: 67%;
+
+  left: 38%;
+
+}
+
+
+

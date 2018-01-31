@@ -1,0 +1,56 @@
+<html>
+
+  <head>
+    <title>MascoF</title>
+  </head>
+
+<link rel="stylesheet" type="text/css" href="css.css">
+  <body>
+    <header>
+      <center>
+        <h1>MascoF</h1>
+        <li id="help" class="top" onclick="window.location.href='help.html'">Help</li>
+        <li id="Feedback" onclick="div_show()">Feedback</li>
+        <li id="login" class="top" onclick="window.location.href='login.php'">Login/SignUp</li>
+        <li id="sell" class="top" onclick="window.location.href='sell.html'">Sell</li>
+        <li id="home" class="top" onclick="window.location.href='index.html'">Home</li>
+      </header>
+      <center>
+
+      <br><h1>Contact us!</h1>
+      <h4>Any queations?<br> Email us at: mascof.info@gmail.com</h4>
+
+      <div class="logos">
+          <a href="https://www.instagram.com/mascofuk/">
+          <img src="insta.png" class="insta" /></a>
+
+          <a href="https://twitter.com/MascofUK?lang=en-gb">
+          <img src="twitter.jpg" class="twitter" /></a>
+      </div>
+
+      <button onclick="myFunction()" class="faq"><h2 >FAQ</h2></button>
+    <div id="questions">
+      <h4 class="q1">Q: How long is delivery?</h4>
+      <h4 class="a1">A: Delivery is 1-3 day after you order</h4>
+
+      <h4 class="q2">Q: How do i reset my passsword? </h4>
+      <h4 class="a2">A: Email us and send your email you set the account up with, we  will then contact your with your new passsword</h4>
+    </div>
+      </center>
+
+      <script>
+      function myFunction() {
+          var x = document.getElementById('questions');
+          if (x.style.display === 'block') {
+              x.style.display = 'none';
+          } else {
+              x.style.display = 'block';
+          }
+      }
+      </script>
+
+  </body>
+  <footer>Copyright &copy; MascoF 2017</footer>
+
+
+</html>
